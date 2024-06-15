@@ -2,49 +2,66 @@ body {
     margin: 50px;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
 }
 
-
-h3{
-    /* board-title-home */
-
-    font-family: 'Roboto';
-    font-style: normal;
+h3 {
     font-weight: 700;
     font-size: 40px;
-    line-height: 36px;
-    text-align: center;
+    line-height: 1.2;
     color: #EEEEEE;
-
+    margin: 20px 0;
 }
 
 .score {
-    font-family: 'Roboto';
-    background: #0a0001;
     font-size: 90px;
+    background: #0a0001;
     color: #EEEEEE;
     width: 120px;
     margin: 20px;
-    /* home-score */
-
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    /* empty-state */
+    align-items: center;
     position: relative;
-    width: 575px;
-    height: 385px;
+    width: 600px;
+    height: 400px;
     background: #BE123C;
+    border-radius: 15px;
     backdrop-filter: blur(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0;
 }
 
 button {
-    background: none;
+    background: #BE123C;
     color: #EEEEEE;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
+button:hover {
+    background: #9B0F34;
+}
 
-
+button:active {
+    background: #7A0C29;
+}
