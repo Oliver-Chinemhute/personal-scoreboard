@@ -1,0 +1,50 @@
+body {
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h3{
+    /* board-title-home */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+
+.score {
+    font-family: 'Roboto';
+    background: #0a0001;
+    font-size: 90px;
+    color: #EEEEEE;
+    width: 120px;
+    margin: 20px;
+    /* home-score */
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* empty-state */
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #BE123C;
+    backdrop-filter: blur(2px);
+}
+
+button {
+    background: none;
+    color: #EEEEEE;
+}
+
+
+
