@@ -1,21 +1,21 @@
 let homeCount = document.getElementById("home-score")
 let guestCount = document.getElementById("guest-score")
-let homeStarcount = 0
+let homeStartcount = 0
 let guestStartCount = 0
 
 function incrementHomeOne() {
-    homeStarcount += 1
-    homeCount.innerText = homeStarcount
+    homeStartcount += 1
+    homeCount.innerText = homeStartcount
 }
 
 function incrementHomeTwo(){
-    homeStarcount += 2
+    homeStartcount += 2
     homeCount.innerText = homeStarcount
 }
 
 function incrementHomeThree(){
-    homeStarcount += 3
-    homeCount.innerText = homeStarcount
+    homeStartcount += 3
+    homeCount.innerText = homeStartcount
 
 }
 function incrementGuestOne(){
