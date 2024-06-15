@@ -65,3 +65,15 @@ button:hover {
 button:active {
     background: #7A0C29;
 }
+#new-game {
+    background: #FF5722;
+    font-weight: bold;
+}
+
+#new-game:hover {
+    background: #E64A19;
+}
+
+#new-game:active {
+    background: #D84315;
+}

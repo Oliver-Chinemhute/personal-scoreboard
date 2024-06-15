@@ -10,7 +10,7 @@ function incrementHomeOne() {
 
 function incrementHomeTwo(){
     homeStartcount += 2
-    homeCount.innerText = homeStarcount
+    homeCount.innerText = homeStartcount
 }
 
 function incrementHomeThree(){
@@ -31,5 +31,11 @@ function incrementGuestThree(){
     guestCount.innerText = guestStartCount
 }
 
+function resetGame() {
+    homeStartcount = 0;
+    guestStartCount = 0;
+    homeCount.innerText = homeStartcount;
+    guestCount.innerText = guestStartCount;
+}
 
 
